@@ -1,0 +1,875 @@
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /****NAVIGATION****/
+    .navbar-nav a span{
+        display: inline-block;
+    }
+    /****modal for protected pages****/
+    #pass .modal-dialog{
+        width: 90%;
+        margin: 80px auto;
+    }
+    #pass h2{
+        margin-top: 80px;
+    }
+    /************************PAGE ABOUT*****************/
+    /****section 'main'****/
+    .main h1{
+        padding-top: 20%;
+        font-size: 40px;
+    }
+    .main p span{
+        bottom: 10%;
+        font-size: 40px;
+    }
+    /****section 'members'****/
+    p{
+        font-size: 18px;
+    }
+    .members p{ 
+        margin: 0 0 20px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    /****section 'contact'****/
+    .contact p,
+    .film-contact p{
+        padding-top: 15%;
+    }
+    .contact a,
+    .film-contact a{
+        width: 200px;
+        padding: 20px 10px;
+        font-size: 24px;
+    }
+    /************************PAGE FILM*****************/
+    /****section 'dream-cast'****/
+    .dream-cast article {
+        padding: 20px 170px;
+    }
+    /************************PAGE FILM_BUDGET*****************/    
+    .main-film h1{
+        margin: 35px 0; 
+    }
+    .main-film h4{
+        margin: 50px 0 10px;
+    }
+    /****budget modal****/
+    #budget .modal-content{
+        padding: 20px 20px 40px;
+    }
+    #budget .table{
+        font-size: 16px;
+    }
+    /************************PAGE FILM_COMPARABLE*****************/ 
+    .comparables h1{
+        margin: 35px 0 45px;;
+    }
+    .comparables p{
+        margin-bottom: 30px;
+    }
+    /****section 'comp-film'****/
+    .comp-film h1{
+        margin: 50px 0;
+    }
+    .comp-film .table{
+        width: 80%;
+    }
+    .comp-film thead tr th{
+        font-size: 30px;
+    }
+    .comp-film tbody tr td{
+        font-size: 26px;
+    }
+    /************************PAGE FILM_SCRIPT*****************/
+    .script{
+        padding-left: 0;
+        height: 900px;
+    }
+    .first-script{
+        width: 400px;
+    }
+    .second-script{
+        position: absolute;
+        top: 20%;
+        right: 0;
+        width: 400px;
+    }
+    a.link{
+        width: 30%;
+    }
+    /***carousel-zoom***/
+    .script-zoom{
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        display: none;
+    }
+    #carousel-script .item img {
+        height: auto;
+    }
+    #carousel-script .carousel-caption{
+        text-align: left;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    #carousel-script .carousel-caption p{
+        margin-bottom: 3px;
+        letter-spacing: 2px;
+    }
+    /************************PAGE FILM_STORY*****************/
+    /****section 'holywood'****/
+    .hollywood article{
+        padding: 60px 0;
+    }
+    .hollywood h4{
+        font-size: 20px;
+    }
+    /************************PAGE GET INVOLVED*****************/
+    /****section 'invest'****/
+    .invest h2{
+        margin: 80px 0 40px;
+    }
+    .invest h3{
+        margin-bottom: 30px;
+        letter-spacing: 2px;
+    }
+    .invest article{
+        padding: 20px 15px 30px;
+    }
+    .invest article h4{
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .invest article p{
+        margin-top: 30px;
+    }
+    /***modal full document***/
+    #full-doc .modal-dialog {
+        width: 90%;
+    }
+    #full-doc .modal-body{
+        height: 1500px;
+    }
+    #full-doc h3{
+        font-size: 36px;
+    }
+    #full-doc h4{
+        font-size: 24px;
+    }
+    #full-doc h5{
+        font-size: 22px;
+    }
+    #full-doc .row p{
+        font-size: 20px;
+    }
+    #full-doc  p{
+        font-size: 16px;
+    }
+    /************************PAGE INCORRUPTIBLE_HOME*****************/
+    .main-inc article{
+        padding-top: 20%;
+        margin-bottom: 50px;
+    }
+    .main-inc h1{
+        padding-top: 0;
+    }
+    p.cure{
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    /****section "devil"****/
+    .devil article{
+        margin: 120px 0;
+    }
+    /****section "inc-slider"****/
+    #carousel-incoruptible .item p{
+        font-size: 36px;
+        letter-spacing: 3px;
+    }
+    #carousel-incoruptible figure.incredible{
+        height: 470px;
+    }
+    #carousel-incoruptible figure.incredible img{
+        padding-top: 90px;
+    }
+    /************************PAGE STORY*****************/
+    .st-jean{
+        min-height: 500px;
+    }
+    /****section "jean"****/
+    .john h4{
+        margin-top: 25%;
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+    .inc-story p{
+        margin-top: 50px;;
+    }
+    .inc-story figure{
+        float: right;
+    }
+    /****section "pray"****/
+    .pray .col-sm-5{
+        margin-top: 15%;
+    }
+    p.submission{
+        padding: 0 70px;
+        padding-top: 10%;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /****NAVIGATION****/
+    .nav > li > a {
+        font-size: 30px;
+    }
+    /****modal for protected pages****/
+    #pass p{
+        font-size: 26px;
+        margin-top: 205px;
+    }
+    #pass h2{
+        font-size: 60px;
+        margin-top: 190px;
+        margin-bottom: 70px;
+    }
+    #pass button{
+        margin-top: 50px;
+        margin-bottom: 150px;
+        width: 305px;
+        padding: 25px;
+        font-size: 36px;
+    }
+    #pass .form-control{
+        width: 70%;
+    }
+    /************************PAGE ABOUT*****************/
+    /****section 'main'****/
+    .main{
+        height: 600px;
+    }
+    .main h1{
+        padding-top: 15%;
+        font-size: 60px;
+    }
+    .main p span{
+        left: 48%;
+    }
+    /****section 'members'****/
+    p {
+        font-size: 23px;
+    }
+    .members{
+        padding: 105px 0 130px;
+    }
+    h2{
+        font-size: 60px;
+    }
+    h4{
+        font-size: 36px;
+        margin: 40px 0 50px;
+    }
+    .members p {
+        margin: 0 0 50px;
+    }
+    .parallax-window,
+    .parallax-window1{
+        min-height: 600px;
+    }
+    /****section 'contact'****/
+    .contact div,
+    .film-contact div{
+        height: 500px;
+    }
+    .contact a,
+    .film-contact a{
+        width: 340px;
+        padding: 40px 10px;
+        font-size: 36px;
+    }
+    footer p{
+        font-size: 20px;
+    }
+    /************************PAGE FILM*****************/
+    /****section 'film-vision'****/
+    .film-vision h2{
+        margin-top: 100px;
+    }
+    .film-vision h4{
+        margin: 60px 0 90px;
+    }
+    /****section 'dream-cast'****/
+    .dream-cast article {
+        padding: 0;
+    }
+    .dream-cast h2{
+        margin-top: 45px;
+        margin-bottom: 35px;
+    }
+    .dream-cast h5{
+        font-size: 24px;
+    }
+    .dream-cast h5.last{
+        margin-bottom: 35px;
+    }
+    .dream-cast p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .f-top{
+        padding-top: 24px;
+    }
+    .dream-cast .row{
+        padding-bottom: 75px;
+    }
+    .dream-cast1 .row{
+        padding: 215px 0 130px;
+    }
+    /************************PAGE FILM_BUDGET*****************/
+    .main-film h1{
+        font-size: 48px;
+        margin: 35px 0 100px; 
+    }
+    .main-film h4{
+        font-size: 26px;
+    }
+    .main-film .nav > li > a {
+        font-size: 18px;
+    }
+    /************************PAGE FILM_COMPARABLE*****************/ 
+    .comparables{
+        margin-bottom: 140px;
+    }
+    .comparables h1{
+        margin: 35px 0 60px;
+    }
+    .comparables h3{
+        margin-bottom: 100px;
+        font-size: 36px;
+    }
+    .comparables p{
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
+    .comparables img{
+        padding-top: 5px;
+    }
+    .comparables .col-xs-10 p{
+        margin-bottom: 20px;
+    }
+    /****section "comp-film"****/
+    .comp-film h1{
+        margin: 120px 0 90px;
+        font-size: 48px;
+    }
+    .comp-film .table-responsive {
+        margin-bottom: 110px;
+    }
+    /************************PAGE FILM_SCRIPT*****************/
+    .script{
+        height: 1100px;
+    }
+    .script h1{
+        margin: 55px 0 65px;
+    }
+    .second-script{
+        top: 25%;
+        width: 400px;
+        padding-bottom: 80px;
+    }
+    .priest p{
+        padding-left: 85px;
+    }
+    .film-contact a.link{
+        font-size: 20px;
+        padding: 20px;
+    }
+    /***carousel-zoom***/
+    #carousel-script .carousel-caption{
+        padding-bottom: 35px;
+        font-size: 14px;
+    }
+    #carousel-script .carousel-caption p {
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+    }
+    #carousel-script .carousel-caption article{
+        padding-bottom: 20px;
+    }
+    #carousel-script .carousel-control .glyphicon-chevron-right,#carousel-script .carousel-control .icon-next {
+        margin-right: -25px;
+    }
+    #carousel-script .carousel-control .glyphicon-chevron-left,#carousel-script .carousel-control .icon-prev{
+        margin-left: -25px;
+    }
+    /************************PAGE FILM_STORY*****************/
+    .st-jean{
+        min-height: 700px;
+    }
+    /****section 'summary'****/
+    .summary{
+        margin-bottom: 50px;
+    }
+    .summary p{
+        font-size: 22px;
+    }
+    .parallax-window2{
+        min-height: 700px;
+    }
+    /****section 'holywood'****/
+    .hollywood article{
+        padding: 200px 25px 115px 120px;
+    }
+    .hollywood h4{
+        font-size: 30px;
+        margin-bottom: 100px;
+        letter-spacing: 5px;
+    }
+    .hollywood p{
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    /************************PAGE GET INVOLVED*****************/
+    /****section 'invest'****/
+    .invest h2{
+        margin: 200px 0 80px;
+        font-size: 60px;
+    }
+    .invest h3{
+        margin-bottom: 50px;
+        font-size: 36px;
+        letter-spacing: 4px;
+    }
+    .invest a{
+        font-size: 20px;
+    }
+    .invest article{
+        padding: 35px 50px 50px 35px;
+        margin: 65px 100px 140px 0;
+    }
+    .invest article p{
+        letter-spacing: 2px;
+    }
+    /***modal full document***/
+    #full-doc .modal-body{
+        height: 2000px;
+    }
+    #full-doc h5{
+        margin-bottom: 10px;
+    }
+    #full-doc .row.heaven{
+        margin-bottom: 35px;
+    }
+    #full-doc .row p{
+        font-size: 22px;
+    }
+    #full-doc p.lato{
+        margin-bottom: 40px;
+    }
+    #full-doc .units{
+        margin-bottom: 50px;
+    }
+    #full-doc table tr td{
+        font-size: 18px;
+        height: 60px;
+        vertical-align: middle;
+    }
+    #full-doc h4{
+        margin-bottom: 45px;
+    }
+    .table{
+        margin-bottom: 70px;
+    }
+    /****section 'gift'****/
+    .gift h3{
+        margin-top: 120px;
+        margin-bottom: 60px;
+        font-size: 45px;
+        letter-spacing: 6px;
+    }
+    .gift p{
+        letter-spacing: 1.8px;
+    }
+    .gift article{
+        margin: 280px 0 290px;
+    }
+    .gift form{
+        padding: 70px;
+    }
+    /************************PAGE INCORRUPTIBLE_HOME*****************/
+    .main-inc article{
+        padding-top: 15%;
+        margin-bottom: 50px;
+    }
+    .main-inc h1{
+        padding-top: 0;
+    }
+    p.cure{
+        font-size: 28px;
+        letter-spacing: 3px;
+    }
+    .main-inc p.event{
+        font-size: 20px;
+    }
+    /****section "devil"****/
+    .devil article{
+        margin: 200px 0;
+    }
+    /****section "inc-slider"****/
+    #carousel-incoruptible{
+        margin: 200px 0 120px;
+    }
+    #carousel-incoruptible .item p{
+        font-size: 48px;
+        letter-spacing: 6px;
+    }
+    #carousel-incoruptible figure.incredible{
+        height: 611px;
+    }
+    #carousel-incoruptible figure.incredible img{
+        padding-top: 140px;
+    }
+    .carousel-indicators{
+        bottom: -90px;
+    }
+    /************************PAGE STORY*****************/
+    /****section"jean"****/
+    .jean article{
+        margin: 155px 0 125px;
+    }
+    .jean h4{
+        margin-top: 18%;
+        margin-bottom: 65px;
+        font-size: 36px;
+        letter-spacing: 4px;
+    }
+    .john figure{
+        margin-left: -70px;
+    }
+    .inc-story p{
+        margin-top: 85px;
+        font-size: 30px;
+    }
+    /****section "pray"****/
+    .pray article{
+        margin: 155px 0 155px;
+    }
+    .pray p{
+        letter-spacing: 2px;
+    }
+    /************************PAGE YOUR_STORY*****************/
+    .your h1{
+        margin-bottom: 100px;
+    }
+    /****section "story-form"****/
+    .story-form p{
+        margin: 150px 0 70px;
+        letter-spacing: 3px;
+        font-size: 26px;
+    }
+    .story-form form{
+        margin-bottom: 90px;
+    }
+    p.submission{
+        padding: 0 100px;
+        padding-top: 15%;
+    }
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /****modal for protected pages****/
+    #pass p{
+        letter-spacing: 1.5px;
+    }
+    /************************PAGE ABOUT*****************/
+    /****section 'main'****/
+    .main{
+        height: 1020px;
+    }
+    .main h1{
+        padding-top: 30%;
+        font-size: 120px;
+    }
+    /****section 'members'****/
+    h2{
+        font-size: 72px;
+    }
+    .members p {
+        letter-spacing: 2px;
+    }
+    .contact div,
+    .film-contact div{
+        height: 1020px;
+    }
+    .contact p,
+    .film-contact p{
+        padding-top: 33%;
+    }
+    /************************PAGE FILM*****************/
+    /****section 'film-vision'****/
+    .film-vision h2{
+        margin-top: 220px;
+    }
+    /************************PAGE FILM_BUDGET*****************/
+    .main-film h1{
+        margin-top: 155px;
+        font-size: 72px;
+    }
+    .main-film h4{
+        font-size: 24px;
+        margin: 170px 0 10px;
+    }
+    .paper{
+        padding: 45px 55px 45px 65px;
+        margin-bottom: 255px;
+    }
+    .paper h4{
+        margin-top: 0;
+    }
+    /****budget modal****/
+    #budget .modal-content{
+        padding: 45px 75px 280px;
+    }
+    #budget button.close {
+        font-size: 40px;
+        margin-top: -20px;
+    }
+    /************************PAGE FILM_COMPARABLE*****************/ 
+    .comparables{
+        margin-bottom: 245px;
+        padding-right: 50px;
+    }
+    .comparables h1{
+        margin-bottom: 45px;
+        letter-spacing: 10px;
+    }
+    .comparables h3{
+        margin-bottom: 80px;
+        letter-spacing: 5px;
+    }
+    .comparables p{
+        letter-spacing: 2px;
+    }
+    .comparables .col-xs-10 p{
+        letter-spacing: 1px;
+    }
+    /****section "comp-film"****/
+    .comp-film h1{
+        margin: 150px 120px 110px;
+        letter-spacing: 10px;
+        font-size: 72px;
+        text-align: right;
+    }
+    .comp-film .table-responsive {
+        margin-bottom: 310px;
+    }
+    .comp-film .table{
+        width: 70%;
+        float: right;
+    }
+    .comp-film tbody tr td {
+        height: 90px;
+        vertical-align: middle;
+    }
+    .comp-film tbody tr td.text-right{
+        padding-right: 35px;
+    }
+    .comp-film tbody tr td:first-child{
+        padding-left: 25px;
+    }
+    /************************PAGE FILM_SCRIPT*****************/
+    .script h1{
+        margin: 45px 0 55px;
+    }
+    .first-script,
+    .second-script{
+        width: 530px;
+        letter-spacing: 0;
+    }
+    .script p{
+        letter-spacing: 0;
+    }
+    .first-script article{
+        width: 260px;
+        padding-left: 50px;
+    }
+    .first-script .woman{
+        padding-right: 100px;
+    }
+    .second-script article{
+        width:450px;
+        padding-left: 45px;
+    }
+    .film-contact a.link{
+        font-size: 24px;
+    }
+    /************************PAGE FILM_STORY*****************/
+    /****section 'summary'****/
+    .summary{
+        margin-bottom: 100px;
+    }
+    .summary h1{
+        margin-bottom: 95px;
+    }
+    .summary p{
+        margin-bottom: 75px;
+    }
+    .parallax-window2{
+        min-height: 800px;
+    }
+    .hollywood article{
+        padding: 305px 20px 275px 300px;;
+        margin-bottom: 50px;
+    }
+    .hollywood h4{
+        width: 850px;
+    }
+    .hollywood p{
+        letter-spacing: 3px;
+    }
+    /************************PAGE FILM_THE_LOCATION*****************/
+    .location{
+        margin-bottom: 65px;
+    }
+    .location h1{
+        letter-spacing: 4px;
+        margin-bottom: 85px;
+    }
+    .location p{
+        letter-spacing: 2px;
+    }
+    /************************PAGE FILM_THE_PLAN*****************/
+    .plan{
+        margin-bottom: 190px;
+    }
+    .plan p{
+        letter-spacing: 1px;
+        margin-bottom: 65px;
+    }
+    /************************PAGE GET INVOLVED*****************/
+    /****section 'invest'****/
+    .invest h2{
+        font-size: 72px;
+    }
+    .invest article h4{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .invest article p{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .invest article{
+        padding: 35px 37px 50px 50px;
+        margin: 65px 170px 140px 0;
+    }
+    /****section 'gift'****/
+    .gift p{
+        letter-spacing: 3.5px;
+    }
+    .gift form{
+        padding: 150px;
+    }
+    /************************PAGE INCORRUPTIBLE_HOME*****************/
+    .main-inc article{
+        padding-top: 30%;
+        margin-bottom: 100px;
+    }
+    .main-inc h1{
+        padding-top: 0;
+    }
+    p.cure{
+        font-size: 48px;
+        letter-spacing: 6px;
+        margin-bottom: 85px;
+    }
+    .main-inc p.event{
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
+    /****section "devil"****/
+    .devil article{
+        margin: 450px 0 430px;
+    }
+    .devil p{
+        margin-bottom: 110px;
+    }
+    /****section "inc-slider"****/
+    #carousel-incoruptible{
+        margin: 300px 0 225px;
+    }
+    #carousel-incoruptible .item p{
+        font-size: 72px;
+        letter-spacing: 5px;
+    }
+    #carousel-incoruptible figure.incredible img{
+        padding-top: 180px;
+    }
+    .carousel-indicators{
+        bottom: -120px;
+    }
+    .parallax-window,
+    .parallax-window1{
+        min-height: 1000px;
+    }
+    /************************PAGE STORY*****************/
+    .st-jean{
+        min-height: 1000px;
+    }
+    /****section"jean"****/
+    .jean h2{
+        font-size: 72px;
+        letter-spacing: 10px;
+    }
+    .jean h4{
+        margin-top: 21%;
+    }
+    /****section "pray"****/
+    .pray article{
+        margin: 285px 0 295px;
+    }
+    .pray .col-sm-5{
+        margin-top: 10%;
+    }
+    .pray p{
+        font-size: 30px;
+        letter-spacing: 3.5px;
+        margin-bottom: 55px;
+        line-height: 30px;
+    }
+    .pray p:last-of-type{
+        margin-bottom: 0;
+    }
+    /************************PAGE YOUR_STORY*****************/
+    .your h1{
+        margin-bottom: 170px;
+    }
+    /****section "story-form"****/
+    .story-form p{
+        padding: 0 50px;
+        margin: 295px 0 90px;
+        letter-spacing: 4px;
+        font-size: 30px;
+    }
+    .story-form form{
+        margin-bottom: 130px;
+    }
+    .story-form .input-group{
+        margin-bottom: 30px;
+    }
+    .your-story p:last-of-type{
+        padding-top: 100px;
+    }
+    p.submission{
+        padding: 0 200px;
+        padding-top: 30%;
+    }
+}
+
+/****section ''****/
+
